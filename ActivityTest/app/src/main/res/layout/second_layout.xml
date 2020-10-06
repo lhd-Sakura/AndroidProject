@@ -1,0 +1,23 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 2"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_10"
+        android:text="按钮（不知道干什么）"
+        />
+
+</LinearLayout>

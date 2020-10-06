@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="214dp"
+        android:layout_height="630dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/D"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="D" />
+
+        <Button
+            android:id="@+id/R"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="R" />
+
+        <Button
+            android:id="@+id/M"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="M" />
+
+        <Button
+            android:id="@+id/F"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="F" />
+
+        <Button
+            android:id="@+id/S"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="S" />
+
+        <Button
+            android:id="@+id/L"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="L" />
+
+        <Button
+            android:id="@+id/X"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="X"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="157dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="102dp"
+        android:layout_height="630dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/black"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>
